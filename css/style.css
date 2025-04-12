@@ -5,6 +5,10 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    background-image: url('img/fons_pedra.jpeg');
+    background-size: cover; /* Cubre todo el fondo */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Para que la imagen no se desplace con el scroll */
 }
 
 .container {
@@ -53,8 +57,12 @@ main {
     padding: 20px 0;
 }
 
+
+/* Para la sección hero */
 .hero {
-    background-color: #555;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/fondo-hero.jpg');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
     padding: 80px 0;
