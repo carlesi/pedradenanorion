@@ -5,7 +5,6 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    background-image: url('../img/fons_pedra.jpeg');
     background-size: cover; /* cobrir tot */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Per a qe no es desplaci amb el scroll */
@@ -58,7 +57,7 @@ main {
 }
 
 
-/* Para la sección hero */
+/* Secció hero */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/fons_hero.jpeg');
     background-size: cover;
@@ -130,4 +129,30 @@ footer {
     text-align: center;
     padding: 1em 0;
     font-size: 0.9em;
+}
+
+/* Estils per a les icones de xarxes socials */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333; /* Color per defecte de les icones */
+    font-size: 1.5em; /* Mida de les icones */
+    margin: 0 10px; /* Espaiat entre icones */
+    transition: color 0.3s ease; /* Transició suau en el canvi de color */
+}
+
+/* Canvi de color en passar el ratolí */
+.social-icons a:hover {
+    color: #e44d26; /* Un color similar al del botó */
+}
+
+/* Colors específics per a cada xarxa social */
+.social-icons .fa-instagram:hover {
+    color: #E1306C; /* Color d'Instagram */
+}
+
+.social-icons .fa-x-twitter:hover {
+    color: #1DA1F2; /* Color de X/Twitter */
 }
